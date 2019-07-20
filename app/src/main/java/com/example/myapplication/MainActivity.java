@@ -10,6 +10,7 @@ public class MainActivity extends AppCompatActivity
 {
 
     WebView browser;
+    String url = "https://www.google.com/maps";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +21,7 @@ public class MainActivity extends AppCompatActivity
         browser.getSettings().setJavaScriptCanOpenWindowsAutomatically(true);
         browser.getSettings().setJavaScriptEnabled(true);
         browser.setWebViewClient(new MyWebViewClient());
-        browser.loadUrl("https://www.google.com");
+        browser.loadUrl(url);
     }
 
     private class MyWebViewClient extends WebViewClient
