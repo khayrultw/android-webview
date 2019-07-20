@@ -1,0 +1,4 @@
+#Sat Jul 20 16:11:39 BDT 2019
+base.0=/home/beta-ori/AndroidStudioProjects/MyApplication/app/build/intermediates/dex/debug/mergeDexDebug/out
+path.0=classes.dex
+renamed.0=classes.dex
